@@ -53,8 +53,10 @@ html {
     display: block;
     margin: 30px auto;
     border-radius: 25px;
+
     color: white;
     background-color: #141412;
+
   }
   
   #totalArea {
