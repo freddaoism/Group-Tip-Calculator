@@ -1,22 +1,19 @@
 html {
   font-family: "Ubuntu Condensed", sans-serif;
-}
-
-.backgroundIMG {
   background-image: url(/images/dolla.jpeg);
 
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 70px; /* You must set a specified height */
+  height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: repeat; /* Do not repeat the image */
-  background-size: contain; /* Resize the background image to cover the entire container */
+  background-size: cover;
+  background-blend-mode: overlay;
 }
-
 p {
   font-size: 1.2em;
 }
 #container {
-  background-color: #fff;
+  /* background-color: #fff; */
   width: 600px;
   height: 625px;
   border-radius: 25px;
@@ -26,7 +23,7 @@ p {
 H1 {
   text-align: center;
   color: white;
-  background-color: #000;
+  background-color: green;
   padding: 5px;
   border-radius: 25px 25px 0px 0px;
 }
@@ -63,7 +60,7 @@ button {
   margin: 30px auto;
   border-radius: 25px;
   color: white;
-  background-color: #377e2d;
+  background-color: green;
 }
 
 #totalArea {
