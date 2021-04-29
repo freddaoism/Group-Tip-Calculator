@@ -5,6 +5,7 @@
   <link href="tiptest.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div id="container">
     <h1>Bill Splitter and Tip Calculator</h1>
@@ -14,39 +15,43 @@
       <p>$ <input type="text" class="fillBox" id="amtbill" placeholder="Amount Of Bill"> </p>
 
 
-        <p>How was the service? </p>
+      <p>How was the service? </p>
       <p><select id="servicelevel">
-        <option disabled selected value="0">Select an option</option>
-        <option value="0.25">Great 25%</option>
-        <option value="0.20">Good 20%</option>
-        <option value="0.10">OK 10%</option>
-        <option value="0.05">Poor 5%</option>
-        <option value="0.00">Horrible 0%</option></select>
-       </p>
+          <option disabled selected value="0">Select an option</option>
+          <option value="0.25">Great 25%</option>
+          <option value="0.20">Good 20%</option>
+          <option value="0.10">OK 10%</option>
+          <option value="0.05">Poor 5%</option>
+          <option value="0.00">Horrible 0%</option>
+        </select>
+      </p>
 
-       <p>How many people are splitting the bill?</p>
-       <p><input type="text" class="fillBox" id="numpeople" placeholder="Number of People"> </p>
+      <p>How many people are splitting the bill?</p>
+      <p><input type="text" class="fillBox" id="numpeople" placeholder="Number of People"> </p>
 
 
-<button type="button" id="calculate"> Calculate Totals</button>
+      <button type="button" id="calculate"> Calculate Totals</button>
     </form>
     <div id="totalArea">
-<div id="billSplit">
-  <sup>$</sup><span id="split">0.00</span>
-  <small id="each">per person</small>
-</div>
+      <div id="billSplit">
+        <sup>$</sup><span id="split">0.00</span>
+        <small id="each">per person</small>
+      </div>
 
-    <div id="totalTip">
-      <sup>$</sup><span id="tip">0.00</span>
-      <small id="each2">per person</small>
-    </div>
+      <div id="totalTip">
+        <sup>$</sup><span id="tip">0.00</span>
+        <small id="each2">per person</small>
+      </div>
 
-    <div id="grandTotal">
-      <sup>$</sup><span id="grand">0.00</span>
-      <small id="each3">per person</small>
+      <div id="grandTotal">
+        <sup>$</sup><span id="grand">0.00</span>
+        <small id="each3">per person</small>
+      </div>
     </div>
-  </div>
     <script type="text/javascript" src="tiptest.js"></script>
   </div>
-  </body>
+  <div class="backgroundIMG"></div>
+
+</body>
+
 </html>
