@@ -52,8 +52,8 @@ html {
     display: block;
     margin: 30px auto;
     border-radius: 25px;
-    color: white;
-    background-color: #7299cc;
+    color: rgb(243, 220, 190);
+    background-color: #030303;
   }
   
   #totalArea {
